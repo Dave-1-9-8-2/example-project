@@ -9,4 +9,5 @@ connection.onerror = (error) => {
 };
 connection.onclose = (event) => {
     console.log('Verbindung geschlossen');
+    console.log('Hallo Welt!');
 };
