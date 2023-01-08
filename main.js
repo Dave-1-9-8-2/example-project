@@ -2,7 +2,7 @@
 
 const connection = new WebSocket('ws://example.com/test');
 connection.onopen = (event) => {
-    console.log('Verbindung geöffnet');
+    console.log('Hallo Welt!');
 };
 connection.onerror = (error) => {
     console.log(`WebSocket Error: ${error}`);
