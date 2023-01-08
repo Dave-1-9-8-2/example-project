@@ -7,4 +7,5 @@ connection.onopen = (event) => {
         hello: 'world'
     };
     connection.send(JSON.stringify(message));
+    console.log('Heute ist Sonntag, der 8.Januar 2023');
 }
